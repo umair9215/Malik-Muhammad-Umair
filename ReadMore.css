@@ -1,0 +1,402 @@
+@font-face {
+    font-family: Poppins-Light;
+    src: url(./Assests/Fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./Assests/Fonts/Poppins-Bold.ttf);
+}
+*{
+    font-family: 'Poppins-Bold', 'Poppins-Light', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #1f242d; 
+    --second-bg-color: #323946;
+    --main-color: #FCF80A; 
+    --text-color: #fff; 
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    scroll-behavior: smooth;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+span{
+    color: var(--main-color);
+}
+.ReadMore{
+    position: relative;
+    top: -95px;
+    
+}
+.imgSection{
+    float: left;
+    width: 40%;
+    height: 468px;
+    position: relative;
+    top: 60px;
+}
+.imgSection img{
+    width: 350px;
+    margin: 20px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px var(--main-color);
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border: 2px solid transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    box-shadow: none;
+    color: var(--second-bg-color);
+    font-weight: 600;
+    transition: .5s ease;
+}
+.btn:hover{
+    box-shadow: 0 0 2rem var(--main-color);
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+}
+.writtenSection{
+    float: right;
+    width: 60%;
+    height: 118px;
+    position: relative;
+    margin: 5px;
+    left: -40px;
+    top: -360px;
+}
+.writtenSection h3{
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    letter-spacing: px;
+}
+.writtenSection h1{
+    font-size: 5rem;
+}
+.writtenSection p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    letter-spacing: .9px;
+    word-spacing: 1px;
+    font-family: Poppins-Light;
+}
+.writtenSection .btn{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 30%;
+}
+
+.socialMedia{
+    background-color: var(--second-bg-color);
+}
+
+.socialMedia h2{
+    margin-bottom: 5rem;
+    font-size: 4.5rem;
+    text-align: center;
+}
+.socialMedia-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.socialMedia-container .socialMedia-box{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+.socialMedia-container .socialMedia-box:hover{
+    transform: scale(1.02);
+    border-color: var(--main-color);
+    box-shadow: 0 0 2rem var(--main-color);
+}
+.socialMedia-box i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+.socialMedia-box h3{
+    font-size: 2.6rem;
+}
+.socialMedia-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    font-family: Poppins-Light;
+}
+
+#btn{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 45%;
+    margin-bottom: 50px;
+}
+
+.education{
+    background-color: var(--bg-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.education h1{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600px;
+    color: var(--text-color);
+    position: relative;
+    top: 50px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerEducation{
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+.card-Education{
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0 10px 30px -5px var(--main-color);
+}
+.card-Education  .row{
+    color: var(--text-color);
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.card-Education  .row  .icon{
+    background: var(--second-bg-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card-Education .row .description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100px;
+    width: 512px;
+    transform: translateY(0px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p{
+    font-family: Poppins-Light;
+    color: var(--text-color);
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.description h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+input{
+    display: none;
+}
+
+input:checked + label{
+    width: 600px;
+}
+
+input:checked + label{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.card-Education[for ="c1"]{
+    background-image: url(./Assests/Pictures/Warsak\ Model\ School\ &\ College\ Peshawar.jpg);
+}
+.card-Education[for ="c2"]{
+    background-image: url(./Assests/Pictures/Islamia_College_University\,_Peshawar_Nightview.jpg);
+}
+.card-Education[for ="c3"]{
+    background-image: url(./Assests/Pictures/Kabul\ English\ Language.jpg);
+}
+.card-Education[for ="c4"]{
+    background-image: url(./Assests/Pictures/Al~Farooque\ Stenography\ Institute.jpg);
+}
+.card-Education[for ="c5"]{
+    background-image: url(./Assests/Pictures/SMIT.jpg);
+}
+.card-Education[for ="c6"]{
+    background-image: url(./Assests/Pictures/Tution.jpg);
+}
+
+.education #btn2{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    position: relative;
+    left: 50%;
+}
+
+
+.skills{
+    background-color: var(--second-bg-color);
+}
+
+.skills h2{
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.skills-container .skills-box{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+.skills-container .skills-box:hover{
+    transform: scale(1.02);
+    border-color: var(--main-color);
+    box-shadow: 0 0 2rem var(--main-color);
+}
+.skills-box i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+.skills-box h3{
+    font-size: 2.6rem;
+}
+.skills-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    font-family: Poppins-Light;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    text-align: center;
+
+}
+.footer h2{
+    font-size: 2.6rem;
+}
+
+.footer-text p{
+    font-size: 1.6rem;
+}
+.end-btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border: 2px solid transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    box-shadow: none;
+    color: var(--second-bg-color);
+    font-weight: 600;
+    transition: .5s ease;
+    margin: 10px;
+}
+.end-btn:hover{
+    box-shadow: 0 0 1.5rem var(--main-color);
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+}

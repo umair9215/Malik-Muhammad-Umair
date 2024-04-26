@@ -1,0 +1,231 @@
+@font-face {
+    font-family: Poppins-Light;
+    src: url(./Assests/Fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./Assests/Fonts/Poppins-Bold.ttf);
+}
+*{
+    font-family: 'Poppins-Bold', 'Poppins-Light', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #1f242d; 
+    --second-bg-color: #323946;
+    --main-color: #FCF80A; 
+    --text-color: #fff; 
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+span{
+    color: var(--main-color);
+}
+
+.education{
+    background-color: var(--bg-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.education h1{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600px;
+    color: var(--text-color);
+    position: relative;
+    top: 90px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.containerEducation{
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin-bottom: 0px;
+}
+.card-Education{
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0 10px 30px -5px var(--main-color);
+    margin-bottom: 0px;
+}
+.card-Education  .row{
+    color: var(--text-color);
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.card-Education  .row  .icon{
+    background: var(--second-bg-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+}
+
+.card-Education .row .description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100px;
+    width: 512px;
+    transform: translateY(0px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p{
+    font-family: Poppins-Light;
+    color: var(--text-color);
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.description h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+input{
+    display: none;
+}
+
+input:checked + label{
+    width: 600px;
+}
+
+input:checked + label{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.card-Education[for ="c1"]{
+    background-image: url(./Assests/Pictures/Project\ No.1.jpg);
+}
+.card-Education[for ="c2"]{
+    background-image: url(./Assests/Pictures/Project\ No.2.jpg);
+}
+.card-Education[for ="c3"]{
+    background-image: url(./Assests/Pictures/Project\ No.3.jpg);
+}
+.card-Education[for ="c4"]{
+    background-image: url(./Assests/Pictures/Project\ No.4.jpg);
+}
+.card-Education[for ="c5"]{
+    background-image: url(./Assests/Pictures/Project\ No.5.jpg);
+}
+.card-Education[for ="c6"]{
+    background-image: url(./Assests/Pictures/Project\ No.6.jpg);
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+    text-align: center;
+
+}
+.footer h2{
+    font-size: 2.6rem;
+}
+
+.footer-text p{
+    font-size: 1.6rem;
+}
+
+
+.end-btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border: 2px solid transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    box-shadow: none;
+    color: var(--second-bg-color);
+    font-weight: 600;
+    transition: .5s ease;
+    margin: 10px;
+}
+.end-btn:hover{
+    box-shadow: 0 0 1.5rem var(--main-color);
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+}
