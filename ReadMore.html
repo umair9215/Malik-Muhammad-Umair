@@ -12,17 +12,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body>
+    <link rel="stylesheet" href="./responsive.css"/>
+    <link rel="stylesheet" href="./education.css"/>
+    
+  </head>
+
+  <body>
     <header class="header">
       <a href="./index.html" class="logo">Port<span>folio</span></a>
 
       <nav class="navbar">
-        <a href="./index.html" class="active">Home</a>
-        <a href="./index.html#about">About</a>
-        <a href="././index.html#services">Services</a>
-        <a href="./index.html#portfolio">Portfolio</a>
-        <a href="./index.html#contact">Contact</a>
+        <a href="./index.html" class="active navitem">Home</a>
+        <a href="./index.html#about" class="navitem">About</a>
+        <a href="././index.html#services" class="navitem">Services</a>
+        <a href="./index.html#portfolio" class="navitem">Portfolio</a>
+        <a href="./index.html#contact" class="navitem">Contact</a>
       </nav>
     </header>
 
@@ -98,101 +102,243 @@
           </div>
 
         </div>
-        <a href="#education" class="btn" id="btn">Read More</a>
+        <a href="#education" class="btn btnsocial" id="btn">Read More</a>
     </section>
 
+    
+    <!-- <section class="education" id="education">
+      <h2>My <span>Education</span></h2>
 
-    <section class="education" id="education">
-
-      <h1>
-        My <span>Education</span>
-      </h1>
-        <div class="wrapper">
-            <div class="containerEducation">
-                <input type="radio" name="slide" id="c1" >
-                <label for="c1" class="card-Education">
-                    <div class="row">
-                        <div class="icon">1</div>
-                        <div class="description">
-                            <h4>Warsak Model School</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                               Veniam minus eos maxime doloremque excepturi a sint omnis 
-                               labore pariatur exercitationem!</p>
-                        </div>
-                    </div>
-                </label>
-
-                <input type="radio" name="slide" id="c2" checked>
-                <label for="c2" class="card-Education">
-                    <div class="row">
-                        <div class="icon">2</div>
-                        <div class="description">
-                            <h4>Islamia College Peshawar</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                               Veniam minus eos maxime doloremque excepturi a sint omnis 
-                               labore pariatur exercitationem!</p>
-                        </div>
-                    </div>
-                </label>
-
-                <input type="radio" name="slide" id="c3" >
-                <label for="c3" class="card-Education">
-                    <div class="row">
-                        <div class="icon">3</div>
-                        <div class="description">
-                            <h4>Kabul English Language Center</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                               Veniam minus eos maxime doloremque excepturi a sint omnis 
-                               labore pariatur exercitationem!</p>
-                        </div>
-                    </div>
-                </label>
-
-                <input type="radio" name="slide" id="c4" >
-                <label for="c4" class="card-Education">
-                    <div class="row">
-                        <div class="icon">4</div>
-                        <div class="description">
-                            <h4>Al~Farooque Stenography Institute</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                               Veniam minus eos maxime doloremque excepturi a sint omnis 
-                               labore pariatur exercitationem!</p>
-                        </div>
-                    </div>
-                </label>
-
-                <input type="radio" name="slide" id="c5">
-                <label for="c5" class="card-Education">
-                    <div class="row">
-                        <div class="icon">5</div>
-                        <div class="description">
-                            <h4>SMIT</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                               Veniam minus eos maxime doloremque excepturi a sint omnis 
-                               labore pariatur exercitationem!</p>
-                        </div>
-                    </div>
-                </label>
-
-                <input type="radio" name="slide" id="c6" >
-                <label for="c6" class="card-Education">
-                    <div class="row">
-                        <div class="icon">6</div>
-                        <div class="description">
-                            <h4>Tution Center</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                               Veniam minus eos maxime doloremque excepturi a sint omnis 
-                               labore pariatur exercitationem!
-                            </p>
-                        </div>
-                    </div>
-                </label>
-                
-            </div>
+      <div class="education-container">
+         
+        <div class="education-box">
+          <input type="checkbox" name="" id="ch">
+          <div class="imgEducation">
+            <img src="/Assests/Pictures/Warsak Model School & College Peshawar.jpg" alt="">
+          </div>
+          <h3>Warsak Model School</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam ratione, quidem dolores saepe omnis iste modi distinctio quod, doloribus perferendis quasi vero consectetur officia totam sunt ut ducimus itaque?</p>
+          <div class="education-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias non perspiciatis, cupiditate saepe dolore beatae cumque deserunt eveniet expedita?</p>
+            <label for="ch">Show Less</label>
+          </div>
+          <label for="ch">Read More</label>
         </div>
-        <a href="#skills" class="btn" id="btn2">Read More</a>
-    </section>
 
+
+        <div class="socialMedia-box">
+          <i class="fa-brands fa-instagram"></i>
+          <h3>Instagram</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam ratione, quidem dolores saepe omnis iste modi distinctio quod, doloribus perferendis quasi vero consectetur officia totam sunt ut ducimus itaque?</p>
+          <a href="https://www.instagram.com/muhammadumair3935?igsh=MzRlODBiNWFlZA==" target="_blank" class="btn">Visit</a>
+        </div> 
+        
+        
+         <div class="socialMedia-box">
+          <i class="fa-brands fa-github"></i>
+          <h3>Github</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam ratione, quidem dolores saepe omnis iste modi distinctio quod, doloribus perferendis quasi vero consectetur officia totam sunt ut ducimus itaque?</p>
+          <a href="https://github.com/umair9215" target="_blank" class="btn">Visit</a>
+        </div>
+
+        <div class="socialMedia-box">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <h3>Linkedin</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam ratione, quidem dolores saepe omnis iste modi distinctio quod, doloribus perferendis quasi vero consectetur officia totam sunt ut ducimus itaque?</p>
+          <a href="https://www.linkedin.com/in/malik-muhammad-umair-khan-b186352b4" target="_blank" class="btn">Visit</a>
+        </div>
+
+        <div class="socialMedia-box">
+          <i class="fa-brands fa-tiktok"></i></a>
+          <h3>TikTok</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam ratione, quidem dolores saepe omnis iste modi distinctio quod, doloribus perferendis quasi vero consectetur officia totam sunt ut ducimus itaque?</p>
+          <a href="https://www.tiktok.com/@umair9khan?_t=8l86m2oykt7&_r=1" class="btn">Visit</a>
+        </div>
+
+        <div class="socialMedia-box">
+          <i class="fa-brands fa-twitter"></i>
+          <h3>Twitter</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam ratione, quidem dolores saepe omnis iste modi distinctio quod, doloribus perferendis quasi vero consectetur officia totam sunt ut ducimus itaque?</p>
+          <a href="" class="btn">Visit</a>
+        </div>
+
+      </div>
+      <a href="#education" class="btn btnsocial" id="btn">Read More</a>
+  </section> -->
+    <!-- <section class="education" id="education">
+      <h1>My <span>Education</span></h1>
+      <div class="education-container-box">
+        
+      <div class="card">
+        <input type="checkbox" id="ch">
+
+        <div class="img-container">
+          <img src="./Assests/Pictures/Warsak Model School & College Peshawar.jpg" alt="">
+        </div>
+
+        <h2>Warsak Model School</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+           elit. Consequatur deserunt debitis quibusdam 
+            voluptatibus labore ut quas distinctio vitae
+            voluptas, officiis sed nulla! Libero, ratione 
+            optio quidem ut voluptates omnis, expedita ducimus
+            aspernatur, modi illo eum dignissimos laborum amet 
+            in....</p>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Quisquam aliquid ut facere nisi minima dolorem 
+                   consequuntur beatae ratione iure a labore voluptatum 
+                   officia deleniti tempora est quo repudiandae non autem 
+                   corporis, ea hic repellat eaque iusto earum. Saepe, 
+                   aperiam.</p>
+
+                   <label for="ch">Show Less</label>
+            </div>
+
+            <label for="ch">Read More</label>
+      </div>
+      <div class="card">
+      <input type="checkbox" id="che">
+
+      <div class="img-container">
+        <img src="./Assests/Pictures/Islamia_College_University,_Peshawar_Nightview.jpg" alt="">
+      </div>
+
+      <h2>Islamia College </h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing
+         elit. Consequatur deserunt debitis quibusdam 
+          voluptatibus labore ut quas distinctio vitae
+          voluptas, officiis sed nulla! Libero, ratione 
+          optio quidem ut voluptates omnis, expedita ducimus
+          aspernatur, modi illo eum dignissimos laborum amet 
+          in....</p>
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Quisquam aliquid ut facere nisi minima dolorem 
+                 consequuntur beatae ratione iure a labore voluptatum 
+                 officia deleniti tempora est quo repudiandae non autem 
+                 corporis, ea hic repellat eaque iusto earum. Saepe, 
+                 aperiam.</p>
+
+                 <label for="che">Show Less</label>
+          </div>
+
+          <label for="che">Read More</label>
+      </div>
+      <div class="card">
+    <input type="checkbox" id="chec">
+
+    <div class="img-container">
+      <img src="./Assests/Pictures/Kabul English Language.jpg" alt="">
+    </div>
+
+    <h2>KELC</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+       elit. Consequatur deserunt debitis quibusdam 
+        voluptatibus labore ut quas distinctio vitae
+        voluptas, officiis sed nulla! Libero, ratione 
+        optio quidem ut voluptates omnis, expedita ducimus
+        aspernatur, modi illo eum dignissimos laborum amet 
+        in....</p>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Quisquam aliquid ut facere nisi minima dolorem 
+               consequuntur beatae ratione iure a labore voluptatum 
+               officia deleniti tempora est quo repudiandae non autem 
+               corporis, ea hic repellat eaque iusto earum. Saepe, 
+               aperiam.</p>
+
+               <label for="chec">Show Less</label>
+        </div>
+
+        <label for="chec">Read More</label>
+      </div>
+      <div class="card">
+  <input type="checkbox" id="check">
+
+  <div class="img-container">
+    <img src="./Assests/Pictures/Al~Farooque Stenography Institute.jpg" alt="">
+  </div>
+
+<h2>Al~Farooque </h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing
+     elit. Consequatur deserunt debitis quibusdam 
+      voluptatibus labore ut quas distinctio vitae
+      voluptas, officiis sed nulla! Libero, ratione 
+      optio quidem ut voluptates omnis, expedita ducimus
+      aspernatur, modi illo eum dignissimos laborum amet 
+      in....</p>
+      <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Quisquam aliquid ut facere nisi minima dolorem 
+             consequuntur beatae ratione iure a labore voluptatum 
+             officia deleniti tempora est quo repudiandae non autem 
+             corporis, ea hic repellat eaque iusto earum. Saepe, 
+             aperiam.</p>
+
+             <label for="check">Show Less</label>
+      </div>
+
+      <label for="check">Read More</label>
+      </div>
+      <div class="card">
+  <input type="checkbox" id="checkb">
+
+  <div class="img-container">
+    <img src="./Assests/Pictures/SMIT.jpg" alt="">
+  </div>
+
+  <h2>SMIT</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing
+     elit. Consequatur deserunt debitis quibusdam 
+      voluptatibus labore ut quas distinctio vitae
+      voluptas, officiis sed nulla! Libero, ratione 
+      optio quidem ut voluptates omnis, expedita ducimus
+      aspernatur, modi illo eum dignissimos laborum amet 
+      in....</p>
+      <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Quisquam aliquid ut facere nisi minima dolorem 
+             consequuntur beatae ratione iure a labore voluptatum 
+             officia deleniti tempora est quo repudiandae non autem 
+             corporis, ea hic repellat eaque iusto earum. Saepe, 
+             aperiam.</p>
+
+             <label for="checkb">Show Less</label>
+      </div>
+
+      <label for="checkb">Read More</label>
+      </div>
+      <div class="card">
+  <input type="checkbox" id="checkbo">
+
+  <div class="img-container">
+    <img src="./Assests/Pictures/Tution.jpg" alt="">
+  </div>
+
+  <h2>Tution Center</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing
+     elit. Consequatur deserunt debitis quibusdam 
+      voluptatibus labore ut quas distinctio vitae
+      voluptas, officiis sed nulla! Libero, ratione 
+      optio quidem ut voluptates omnis, expedita ducimus
+      aspernatur, modi illo eum dignissimos laborum amet 
+      in....</p>
+      <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Quisquam aliquid ut facere nisi minima dolorem 
+             consequuntur beatae ratione iure a labore voluptatum 
+             officia deleniti tempora est quo repudiandae non autem 
+             corporis, ea hic repellat eaque iusto earum. Saepe, 
+             aperiam.</p>
+
+             <label for="checkbo">Show Less</label>
+      </div>
+
+      <label for="checkbo">Read More</label>
+      </div>
+      </div>
+    </section> -->
 
     <section class="skills" id="skills">
       <h2>My <span>Skills</span></h2>
@@ -263,5 +409,5 @@
     </footer>
     
   </body>
-  </html>
+</html>
   

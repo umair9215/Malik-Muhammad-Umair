@@ -1,0 +1,404 @@
+@media screen and (max-width:410px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header .logo{
+        position: absolute;
+        left: 5px;
+        font-size: 15px;
+    }
+    header nav{
+        display: flex;  
+        flex-wrap: wrap;
+    }
+    header nav .navitem{
+        position: relative;
+        left: 30px;
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    border{
+        margin: 0;
+        padding: 0;
+    }
+    section{
+        /* min-height: 100%; */
+    }
+
+    /* home section responsiveness  */
+     
+    .home{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: -40px;
+        height: 100%;
+    }
+    .home .home-img{
+        height: 300px;
+        order: -1;
+    }
+    .home .home-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .home .home-content{
+        order: 5;
+        margin-top: 20px;
+    }
+    .home .home-content h3{
+        font-size: 15px;
+    }
+    .home .home-content h1{
+        font-size: 20px;
+    }
+    .home .home-content p{
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    .home .home-content .btn{
+        position: relative;
+        left: 25%;
+        justify-self: center;
+        font-size: 10px;
+        
+    }
+
+    /* about section responsiveness  */
+    .about{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: -30px;
+        height: 100%;
+    }
+    .about .about-img{
+        height: 300px;
+        order: -1;
+    }
+    .about .about-img img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: -50px;
+    }
+    .about .about-content{
+        order: 5;
+        position: relative;
+        top: -30px;
+    }
+    .about .about-content h3{
+        font-size: 15px;
+        margin-left: 25%;
+    }
+    .about .about-content h2{
+        font-size: 20px;
+        margin-left: 30%;
+    }
+    .about .about-content p{
+        font-size: 10px;
+        margin-top: 1px;
+    }
+    .about .about-content .btn{
+        position: relative;
+        left: 25%;
+        top: -10px;
+        justify-self: center;
+        font-size: 10px;
+    }
+
+    /* services section responsiveness  */
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: -90px;
+        height: 100%;
+    }
+    .services h2{
+        font-size: 20px;
+    }
+    .services .services-container{
+        width: 90%;
+        position: relative;
+        left: 20px;
+    }
+    .services .services-container .services-box h3{
+        font-size: 15px;
+    }
+    .services .services-container .services-box i{
+        font-size: 50px;
+    }
+    .services .services-container .services-box p{
+        font-size: 10px;
+    }
+    .services .services-container .services-box .btn{
+        font-size: 10px;
+    }
+
+    /* portfolio section responsiveness  */
+
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: -90px;
+        height: 100%;
+    }
+    .portfolio h2{
+        font-size: 20px;
+        position: relative;
+        top: -70px;
+        font-weight: bold;
+    }
+    .portfolio .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: -70px;
+    }
+    .portfolio .portfolio-container h4{
+        font-size: 18px;
+    }
+    .portfolio .portfolio-container p{
+        font-size: 13px;
+    }
+    .portfolio .portfolio-container a i{
+        font-size: 20px;
+    }
+
+    /* contact section responsiveness  */
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: -100px;
+        height: 100%;
+    }
+    .contact h2{
+        position: relative;
+        top: -60px;
+        font-size: 20px;
+    }
+    .contact form{
+        position: relative;
+        top: -60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact form .input-box{
+        width: 100%;
+    }
+    .contact form .input-box input{
+        width: 100%;
+        font-size: 15px;
+    }
+    .contact form .btn{
+        font-size: 10px;
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+
+    /* footer section  responsiveness  */
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: sticky;
+        height: 100%;
+    }
+    .footer h2{
+        font-size: 20px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    .footer .end-btn{
+        font-size: 10px;
+    }
+    .footer h3{
+        font-size: 9px;
+    }
+}
+
+/* index.html responsiveness ends here  */
+
+/* ReadMore.html responsiveness starts here  */
+
+@media screen  and (max-width:410px) {
+    .ReadMore{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 150vh;
+    }
+    .ReadMore .imgSection{
+        order: -1;
+        height: 500px;
+        position: relative;
+        left: -15px;
+    }
+    .ReadMore .imgSection img{
+        height: 100%;
+        border-radius: 250px;
+    }
+    .ReadMore .writtenSection{
+        order: 54;
+        position: relative;
+        top: 90px;
+        width: 100%;
+        left: 10px;
+    }
+    .ReadMore .writtenSection h3{
+        font-size: 15px;
+    }
+    .ReadMore .writtenSection h1{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .ReadMore .writtenSection p{
+        font-size: 10px;
+        margin-top: -5px;
+        margin-bottom: 2px;
+    }
+    .ReadMore .writtenSection .btn{
+        font-size: 10px;
+        margin-top: 3px;
+        margin-left: -10px;
+    }
+    /* ReadMore home section responsiveness ends here  */
+
+    
+    .socialMedia{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .socialMedia h2{
+        font-size: 20px;
+        position: relative;
+        top: -50px;
+    }
+    .socialMedia .socialMedia-container{
+        position: relative;
+        top: -50px;
+        width: 90%;
+        left: 20px;
+    }
+    .socialMedia .socialMedia-container .socialMedia-box h3{
+        font-size: 15px;
+    }
+    .socialMedia .socialMedia-container .socialMedia-box i{
+        font-size: 50px;
+    }
+    .socialMedia .socialMedia-container .socialMedia-box p{
+        font-size: 10px;
+    }
+    .socialMedia .btn{
+        font-size: 10px;
+    }
+    .socialMedia  .btnsocial{
+        width: 50%;
+        margin-left: -40px;
+        text-align: center;
+        justify-content: center;
+        margin-top: -30px;
+    }
+    /* socialMedia section responsiveness ends here  */
+
+    /* .education{
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        padding: 0;
+        margin: 0;
+    }
+    .education h1{
+        font-size: 20px;
+        margin-left: 20%;
+        position: relative;
+        left: 60px;
+    }
+     .education .wrapper{
+        width: 40%;
+        /* margin-left: -100px; */
+        /* position: relative;
+        left: -95px;
+    }
+    .education .wrapper .containerEucation{
+        min-height: 150px;
+    }
+    .containerEucation{
+        justify-content: start;
+    }
+    .card-Education{
+        width: 25px;
+        height: 40%;
+        margin: 2px;
+        border-radius: 10px;
+        box-shadow: 0 2px 2px white;
+        cursor: pointer;
+        display: flex;
+        align-items: flex-end;
+    }
+    .card-Education .row{
+        display: flex;
+    }
+    .card-Education .row .icon{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        margin-left: 2px ;
+        margin-bottom: -15px;
+    }
+    .card-Education .row .description{
+        height: 110px;
+        width: 100%;
+    }
+    .card-Education .row .description p{
+        font-size: 8px;
+    }
+    .card-Education .row .description h4{
+        font-size: 15px;
+        color: var(--main-color);
+    }
+    .inputedu:checked + label{
+        width: 200px;
+    }
+    input:checked + label{
+        opacity: 1  !important;
+        transform: translateY(0) !important;
+    } 
+    .education  .btneducation{ 
+        position: absolute;
+        top: -260px;
+        margin-left: -65px;
+        font-size: 10px;
+        display: none;
+    } */
+    
+    /* education section responsiveness ends here  */
+
+    .skills{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: -140px;
+    }
+
+}
